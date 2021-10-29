@@ -1,6 +1,6 @@
 # txtmaker
 
-# Textpro & Photooxy Unlimited API
+# Textpro - Photooxy Unlimited API
 
 This api can handle thousands of requests. Also its completely free
 and unlimited resources. 
@@ -9,7 +9,7 @@ and unlimited resources.
 
 ## 📦 NPM Installation
 
-`npm i w5bot-textmaker`
+`npm i w5-textmaker`
 
 ##
 
@@ -18,7 +18,7 @@ and unlimited resources.
 ### Textpro 1
 
 ```js
-const w5botapi = require('w5bot-textmaker'); // Import NPM Package
+const w5botapi = require('w5-textmaker'); // Import NPM Package
 
 w5botapi.textpro("<textpro_html>",
     // "Message One" (One Message)
@@ -35,7 +35,7 @@ w5botapi.textpro("<textpro_html>",
 ### Textpro 2 ( Real Usage With One Message )
 
 ```js
-const w5botapi = require('w5bot-textmaker');
+const w5botapi = require('w5-textmaker');
 
 w5botapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
     "white spider"
@@ -51,7 +51,7 @@ w5botapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-
 ### Textpro 3 ( Real Usage With Two Message )
 
 ```js
-const w5botapi = require('w5bot-textmaker');
+const w5botapi = require('w5-textmaker');
 
 w5botapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb-1000.html",
     ["Developer"], ["white spider"]
