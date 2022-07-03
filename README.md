@@ -135,7 +135,7 @@ w5botapi.ephoto2("https://ephoto360.com/tinh-yeu/viet-chu-len-bong-bay-tinh-yeu-
  ```js
  const w5botapi = require('w5-textmaker');
 
-  w5botapi.igstory("wh173_5p1d3r_official")
+  w5botapi.igstory("Username") // "Enter Username"
           .then((data) => console.log(data))
           .catch((err) => console.log(err));
 ```
